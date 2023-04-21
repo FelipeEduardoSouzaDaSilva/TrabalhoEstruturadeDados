@@ -1,0 +1,25 @@
+Esse código é um programa Java para ordenação de vetores utilizando os algoritmos de 
+ordenação InsertionSort, SelectionSort e BubbleSort. O programa pede ao usuário o 
+tamanho do vetor que será ordenado e, em seguida, solicita que o usuário insira os 
+valores do vetor. Depois disso, o programa exibe uma caixa de diálogo com as opções 
+para selecionar qual algoritmo de ordenação será utilizado. Dependendo da opção escolhida,
+o programa ordena o vetor e exibe o resultado na tela, juntamente com o tempo de execução 
+em nanossegundos.
+
+Os métodos de ordenação estão definidos dentro da classe Main e são implementados de forma 
+procedural. O método insertion() implementa o algoritmo de ordenação InsertionSort, o método
+selection() implementa o algoritmo de ordenação SelectionSort e o método bubble() implementa 
+o algoritmo de ordenação BubbleSort. Cada um desses métodos recebe um vetor como entrada e 
+retorna o vetor ordenado. Além disso, há os métodos mostraInsertion(), mostraSelection() e 
+mostraBubble() que exibem o vetor ordenado na tela.
+
+Este programa utiliza caixas de diálogo JOptionPane para interagir com o usuário 
+e exibir mensagens na tela. A variável opcoes é um array de Strings que define 
+as opções disponíveis na caixa de diálogo para selecionar qual algoritmo 
+de ordenação será utilizado. A variável inputTamanhoVetor é utilizada para armazenar 
+o tamanho do vetor inserido pelo usuário. O array array é utilizado para armazenar os 
+valores inseridos pelo usuário.
+
+Por fim, o programa utiliza um loop while para continuar exibindo a caixa de diálogo para 
+selecionar o algoritmo de ordenação até que o usuário escolha a opção "Finalizar", 
+que encerra a execução do programa.
